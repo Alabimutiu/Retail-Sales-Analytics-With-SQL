@@ -316,4 +316,4 @@ Database Used ; PostgreSQL
 - **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/mutiu-sulaimon-7b604367/)
 - **Email**: [Email](alabimutiu2011@yahoo.com)
 
-## Thank you for checking through my project.
+# Thank you for checking through my project.
