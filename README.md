@@ -1,20 +1,20 @@
 
-# 🛍️ Retail Sales Analytics with SQL
+# Retail Sales Analytics with SQL
 
 This project demonstrates SQL-based analysis of a fictional retail business using synthetic datasets for customers, products, and orders. The goal is to showcase proficiency with SQL, especially using **window functions**, **date operations**, and **business intelligence logic** to uncover trends, performance metrics, and customer insights.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
-- 📌 Create a relational database representing a retail business (customers, products, and orders).
-- 📌 Practice advanced SQL concepts such as window functions (`LAG`, `RANK`, `OVER`), date functions (`EXTRACT`, `TO_CHAR`, `AGE`), and aggregation (`SUM`, `AVG`, `COUNT`).
-- 📌 Perform 20+ business intelligence queries that provide actionable insights.
-- 📌 Simulate a realistic analytics pipeline similar to what data analysts or BI professionals do in real companies.
+-  Create a relational database representing a retail business (customers, products, and orders).
+-  Practice advanced SQL concepts such as window functions (`LAG`, `RANK`, `OVER`), date functions (`EXTRACT`, `TO_CHAR`, `AGE`), and aggregation (`SUM`, `AVG`, `COUNT`).
+-  Perform 20+ business intelligence queries that provide actionable insights.
+-  Simulate a realistic analytics pipeline similar to what data analysts or BI professionals do in real companies.
 
 ---
 
-## 📂 Dataset Overview
+##  Dataset Overview
 
 1. **customers.csv** — 300 customers with `gender`, `join_date`, and `full_name`
 2. **products.csv** — 20 products from 3 categories with pricing info
@@ -22,7 +22,7 @@ This project demonstrates SQL-based analysis of a fictional retail business usin
 
 ---
 
-## 🧠 SQL Concepts Used
+##  SQL Concepts Used
 
 - **Window Functions**: `LAG`, `RANK`, `ROW_NUMBER`, `SUM() OVER()`
 - **Date Functions**: `EXTRACT`, `TO_CHAR`, `AGE`, `DATE_DIFF`
@@ -45,7 +45,7 @@ This project demonstrates SQL-based analysis of a fictional retail business usin
 
 ---
 
-## 🗃️ Database and Table Creation
+##  Database and Table Creation
 
 ```sql
 -- Create database
@@ -82,7 +82,7 @@ CREATE TABLE orders (
 
 ---
 
-## 📊 Business Questions and SQL Queries
+##  Business Questions and SQL Queries
 
 ### 1. Total sales per customer
 ```sql
@@ -272,34 +272,34 @@ HAVING  COUNT(DISTINCT product_id)>1;
 ```
 ---
 
-## 🔍 Key Insights & Findings
+##  Key Insights & Findings
 
-### 1. 💰 Revenue & Sales Performance
+### 1.  Revenue & Sales Performance
 - **Top 5 products** generated more than 40% of total quantity sold.
 - **Electronics** category had the highest revenue share, while **Furniture** had fewer but higher-value sales.
 - The **average order value** varied widely by customer, with a small segment contributing to a large portion of revenue (Pareto Principle).
 
-### 2. 🧍 Customer Behavior
+### 2.  Customer Behavior
 - Over 60% of customers made purchases in multiple months, indicating decent customer retention.
 - Using the `LAG()` function, we found that **average time between repeat purchases** was approximately **45–60 days** depending on the customer.
 - A few customers consistently made high-value purchases — potential targets for loyalty programs.
 
-### 3. 📅 Time Trends
+### 3.  Time Trends
 - **December and November** were peak revenue months — strong seasonal effects likely due to holidays.
 - Revenue and orders dipped during Q2 — potentially a time for special campaigns or discounts.
 
-### 4. 🪞 Product & Category Insights
+### 4. Product & Category Insights
 - Ranking products within each category using `RANK()` showed that **3 products** dominated their categories.
 - Category-level pricing analysis showed **Office Supplies** had the lowest average price, while **Furniture** had the highest variance.
 
-### 5. 📈 Advanced Analytics
+### 5.  Advanced Analytics
 - Rolling revenue (running total) was calculated using `SUM() OVER (PARTITION BY ...)`.
 - The **highest revenue day** was in early December — suggesting a key sales event.
 - Orders with multiple product types (combo orders) accounted for ~20% of total sales — an upsell opportunity.
 
 ---
 
-## 📁 Dataset Files
+##  Dataset Files
 
 - `customers.csv` – Customer information
 - `products.csv` – Product catalog
@@ -308,7 +308,7 @@ HAVING  COUNT(DISTINCT product_id)>1;
 Database Used ; PostgreSQL
 
 ---
-## 👨‍💻 Author--Mutiu Sulaimon
+##  Author--Mutiu Sulaimon
 
 *This project is part of my data analytics portfolio, showcasing my SQL skills relevant to business data analysis.*
 
