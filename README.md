@@ -313,7 +313,7 @@ Database Used ; PostgreSQL
 *This project is part of my data analytics portfolio, showcasing my SQL skills relevant to business data analysis.*
 
 ### Connect with me
-- **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/mutiu-sulaimon-7b604367/)
+- **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/mutiu-sulaimon-7b604367/)
 - **Email**: [Email](alabimutiu2011@yahoo.com)
 
  Thank you for checking through my project.
