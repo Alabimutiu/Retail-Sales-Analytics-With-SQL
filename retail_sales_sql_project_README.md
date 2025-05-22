@@ -1,5 +1,4 @@
 
-
 # 🛍️ Retail Sales Analytics with SQL
 
 This project demonstrates SQL-based analysis of a fictional retail business using synthetic datasets for customers, products, and orders. The goal is to showcase proficiency with SQL, especially using **window functions**, **date operations**, and **business intelligence logic** to uncover trends, performance metrics, and customer insights.
